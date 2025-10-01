@@ -1,8 +1,19 @@
-body 
+body{
 
-background-color: blueviolet;    
+
+background-color: rgb(211, 22, 179);    
 color 
+}
 header{
-    background-color: aqua;
+     background-color: white;
 height: 35px;
-}  
+margin-left: -20px;
+margin-right: -20px;
+} 
+
+header h3{
+ padding-left: 15px;    
+color: darkgray;
+text-align: center;
+font-size: 40px;
+}
