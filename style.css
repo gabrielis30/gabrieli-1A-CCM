@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 body{
 
 
 background-color: rgb(211, 22, 179);    
-color 
+color :aliceblue;
+margin: 0;
 }
 header{
      background-color: white;
-height: 35px;
-margin-left: -20px;
-margin-right: -20px;
+    padding: 10px;
+    border-bottom: 10px solid black;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 } 
 
 header h3{
+     font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  
  padding-left: 15px;    
 color: darkgray;
 text-align: center;
