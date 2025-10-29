@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
 body{
-
-
-background-color: rgb(211, 22, 179);    
-color :aliceblue;
-margin: 0;
+    background-color: rgb(8, 243, 243);
+    color: rgb(20, 5, 150);
+    margin: 0;
 }
 header{
-     background-color: white;
+    background-color: white;
     padding: 10px;
     border-bottom: 10px solid black;
     font-size: 25px;
@@ -16,36 +14,33 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-} 
+}
 
 header h3{
-     font-family: "Changa One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
-  
- padding-left: 15px;    
-color: darkgray;
-text-align: center;
-font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+    color: grey;
+    text-align: center;
+    font-size: 30px;
 }
+
 nav ul{
-     list-style: none;
-     margin: 0;
-     padding: 0;
-     display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 nav ul li{
-margin-left: 20px;
-font-size: 20px;
-
+    margin-left: 20px;
+    font-size: 20px;
 }
 header nav ul li a{
-color: black;
-text-decoration: none;
-transition: color 0.5s;
-
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
 }
-header nav ul li a:hover{ 
-     color: blue;
+header nav ul li a:hover{
+    color: rgb(255, 3, 238);
 }
